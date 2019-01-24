@@ -1,0 +1,11 @@
+.formEntry {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  margin-bottom: 0.5em;
+
+  label {
+    margin-right: 1em;
+  }
+}
