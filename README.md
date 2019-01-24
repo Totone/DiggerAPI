@@ -19,11 +19,6 @@ Au submit, tu affiches la liste de résultat avec :
 Si tu as encore de l'énergie, propose un mode affichage sur une carte type mapbox.
 ```
 
-App ID
-    b2a9d0fa
-Key
-    3edaee6223c4579c7e7ff488d887c68c
-
 ## Stack
 
 - Framework: **react**
