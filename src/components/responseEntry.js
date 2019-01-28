@@ -13,7 +13,7 @@ const ResponseEntry = ({
     <ul className="responseEntry">
       <strong>{schoolName}</strong>
       <li><em>Adresse: </em>{address}</li>
-      <li><em>Nombre d'étudiants: </em>{studentsNb}</li>
+      <li><em>Nombre d&apos;étudiants: </em>{studentsNb}</li>
       <li>
         <a 
           href={
