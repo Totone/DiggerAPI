@@ -16,7 +16,11 @@ const ResponseEntry = ({
       <li><em>Nombre d'étudiants: </em>{studentsNb}</li>
       <li>
         <a 
-          href={`https://www.google.com/maps/search/?api=1&query=${latLong.latitude},${latLong.longitude}`}
+          href={
+            latLong !== undefined
+            ? `https://www.google.com/maps/search/?api=1&query=${latLong.latitude},${latLong.longitude}`
+            : ""
+          }
           target="_blank"
         >
           Voir sur la carte
